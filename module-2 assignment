@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Site</title>
+  <style>
+  .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+@media only screen and (max-width: 991px) {
+  section {
+    width: 50%;
+  }
+
+  section:nth-child(3) {
+    clear: both;
+    width: 100%;
+  }
+}
+p{
+	background-color:lightgreen;
+	padding:10px;
+	border:3px solid black;
+}
+h2{
+	background-color:lightblue;
+	border:3px solid black;
+}
+</style>
+</head>
+
+<body>
+  <header>
+    <h1 align="center"> OUR MENU</h1>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>CHICKEN</h2>
+      <p  >Hens communicate with their chicks while they're still inside their eggs! ...
+    Chickens have a great memory for faces! ...
+    Chickens are actually omnivores, not herbivores. ...
+    Some research suggests that chickens are just as clever as human toddlers. ...</p>
+    </section>
+    <section>
+      <h2>CARROT</h2>
+      <p >Carrots are root vegetables that were first grown in Afghanistan around 900 AD. Orange may be their best-known color, but they also come in other hues, including purple, yellow, red, and white. Early carrots were purple or yellow. Orange carrots were developed in Central Europe around the 15th or 16th century.</p>
+    </section>
+    <section>
+      <h2>FROG</h2>
+      <p>Frogs have ear drums on the outside of their heads. ...
+Sea otters always float on their backs when they eat. ...
+Polar bears look white, but they actually have black skin. ...
+Snakes always keep their eyes open, even when they are asleep. ...
+Crickets have ears on their front legs.</p>
+    </section>
+  </div>
+</body>
+</html>
 
